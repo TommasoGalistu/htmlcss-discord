@@ -126,7 +126,7 @@ main{
     width: 100%;
 }
 
-main > div{
+main > .generalSection{
     height: 19rem;
     display: flex;
     justify-content: center;
@@ -154,37 +154,51 @@ div .posizioneContenitori.pari{
     flex-direction: row-reverse;
 }
 
-.generalSection .containerLeft{
+.generalSection .containerImg{
     height: 100%;
     width: 60%;
 }
 
-.containerLeft img{
+.containerImg img{
     height: 75%;
 }
 
-.generalSection .containerRight{
-    height: 100%;
+.generalSection .containerText{
+    height: 60%;
     width: 40%;
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+p{
+    line-height: 1.5;
 }
 
 .pari.ultimaSection{
     height: 60rem;
     background-color: #D3D3D3;
+    
+    
 }
 
 .ultimaSection .posizioneContenitori{
     height: 90%;
-    background-color: #228B22;
+    display: block;
+    text-align: center;
+}
+
+.ultimaSection h2:first-child{
+    font-size: 3rem;
 }
 
 /* inizio footer */
 footer{
     background-color: black;
     height: 40rem;
-    /* debug */
     
 }
 

@@ -21,6 +21,10 @@ a{
     color: white;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* style header */
 
 header{
@@ -69,11 +73,12 @@ header{
 .listaMenu ul{
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
     width: -webkit-fill-available;
     /* controllare dopo perchè non funziona lo space-around */
    
 }
+
+
 
 
 .barraNavigazione .menuLaterali:last-child{
@@ -170,7 +175,7 @@ div .posizioneContenitori.pari{
     text-align: left;
 }
 
-h2{
+h2 {
     margin-bottom: 2rem;
 }
 
@@ -199,8 +204,19 @@ p{
 footer{
     background-color: black;
     height: 40rem;
-    
+    text-align: left;
 }
+
+footer h2{
+    color: #738ADC;
+}
+
+footer i{
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+
 
 footer #mainContain{
     height: 90%;
@@ -209,7 +225,6 @@ footer #mainContain{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid white;
-    
 }
 
 footer .posizioneContenitori{
@@ -217,18 +232,19 @@ footer .posizioneContenitori{
     display: flex;
 }
 
-.posizioneContenitori .contSinistra{
-    background-color: #F08080;
-    border: 1px dashed black;
-    
-    
+
+.contSinistra img{
+    height: 1rem;
 }
 
-.posizioneContenitori .contDestra{
-    background-color: #20B2AA;
-    border: 1px dashed white;
-    
+span{
+    color: white;
 }
+
+footer span::after{
+    content: "\2B9F";
+}
+
 
 .item1{
     flex-grow: 2;
@@ -236,6 +252,10 @@ footer .posizioneContenitori{
 
 .item2, .item3, .item4, .item5{
     flex-grow: 1;
+}
+
+footer li{
+    margin: 1rem 0;
 }
 
 #lastContainFoot{

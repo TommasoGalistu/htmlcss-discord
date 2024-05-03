@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
+/* style regole generali  */
+button{
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+} 
+
+.posizioneContenitori{
+    width: 75%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* style header */
+
+header{
+    height: 40rem;
+    display: flex;
+    flex-direction: column ;
+    background-image: url("../img/jumbo.png");
+    background-size: 100% 100%;
+    
+}
+
+#contenitoreNavigazione{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+    
+}
+
+
+#contenitoreNavigazione .barraNavigazione{
+    height: 1.8rem;
+    display: flex;
+    color: white;
+    
+}
+
+.barraNavigazione div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menuLaterali{
+    flex-grow: 2;
+}
+
+.listaMenu{
+    flex-grow: 2;
+    
+    
+}
+
+.listaMenu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: -webkit-fill-available;
+    /* controllare dopo perchè non funziona lo space-around */
+   
+}
+
+
+.barraNavigazione .menuLaterali:last-child{
+    justify-content: flex-end;
+    
+}
+
+.whiteButton{
+    color: black;
+}
+
+/* seconda parte header */
+#contDownloadDiscord{
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+button.interlineeHeader{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0.5rem 2rem;
+}
+.interlineeHeader{
+    margin: 3rem;
+}
+
+.blackButton{
+    background-color: black;
+    color: white;
+}
+
+/* inizio parte main */
+main{
+    height: auto;
+    width: 100%;
+}
+
+main > div{
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.generalSection{
+    background-color: white;
+    height: 40rem;
+    
+    
+}
+
+div.pari{
+    background-color: #D3D3D3;
+}
+
+div .posizioneContenitori{
+    height: 80%;
+    display: flex; 
+}
+
+div .posizioneContenitori.pari{
+    flex-direction: row-reverse;
+}
+
+.generalSection .containerLeft{
+    height: 100%;
+    width: 60%;
+}
+
+.containerLeft img{
+    height: 75%;
+}
+
+.generalSection .containerRight{
+    height: 100%;
+    width: 40%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.pari.ultimaSection{
+    height: 60rem;
+    background-color: #D3D3D3;
+}
+
+.ultimaSection .posizioneContenitori{
+    height: 90%;
+    background-color: #228B22;
+}
+
+/* inizio footer */
+footer{
+    background-color: black;
+    height: 40rem;
+    /* debug */
+    
+}
+
+footer #mainContain{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    
+}
+
+footer .posizioneContenitori{
+    height: 90%;
+    display: flex;
+}
+
+.posizioneContenitori .contSinistra{
+    background-color: #F08080;
+    border: 1px dashed black;
+    
+    
+}
+
+.posizioneContenitori .contDestra{
+    background-color: #20B2AA;
+    border: 1px dashed white;
+    
+}
+
+.item1{
+    flex-grow: 2;
+}
+
+.item2, .item3, .item4, .item5{
+    flex-grow: 1;
+}
+
+#lastContainFoot{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 10%;
+}
+
+#lastContainFoot .posizioneContenitori{
+    background-color: #7FFFD4;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.colorBlue{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+
+
+
+

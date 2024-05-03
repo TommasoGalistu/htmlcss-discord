@@ -28,6 +28,10 @@ button:hover{
     padding: 0.5rem 1rem;
 }
 
+.blackButton{
+    background-color: black;
+    color: white;
+}
 .colorBlue{
     background-color: #8EA1E1;
     color: white;
@@ -108,17 +112,11 @@ header{
     display: flex;
     justify-content: space-between;
     width: -webkit-fill-available;
-    /* controllare dopo perchè non funziona lo space-around */
-   
+    
 }
 
-
-
-
-
 .barraNavigazione .menuLaterali:last-child{
-    justify-content: flex-end;
-    
+    justify-content: flex-end; 
 }
 
 
@@ -148,10 +146,7 @@ p{
     margin: 3rem;
 }
 
-.blackButton{
-    background-color: black;
-    color: white;
-}
+
 
 /* inizio parte main */
 main{
@@ -159,7 +154,7 @@ main{
     width: 100%;
 }
 
-main > .generalSection{
+main .generalSection{
     height: 19rem;
     display: flex;
     justify-content: center;

@@ -12,12 +12,41 @@ button{
     font-weight: 600;
 } 
 
+button:hover{
+    color: #5D6AF2;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.bigButton{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.smallButton{
+    padding: 0.5rem 1rem;
+}
+
+button.colorBlue{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.whiteButton{
+    color: black;
+}
 .posizioneContenitori{
     width: 75%;
 }
 
 a{
     text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 ul{
@@ -68,8 +97,6 @@ header{
 
 .listaMenu{
     flex-grow: 2;
-    
-    
 }
 
 .listaMenu ul{
@@ -83,14 +110,13 @@ header{
 
 
 
+
 .barraNavigazione .menuLaterali:last-child{
     justify-content: flex-end;
     
 }
 
-.whiteButton{
-    color: black;
-}
+
 
 /* seconda parte header */
 #contDownloadDiscord{
@@ -113,11 +139,6 @@ p{
     font-size: 1.5rem;
 }
 
-button.interlineeHeader{
-    font-size: 1.5rem;
-    margin: 0 1rem;
-    padding: 0.5rem 2rem;
-}
 .interlineeHeader{
     margin: 3rem;
 }

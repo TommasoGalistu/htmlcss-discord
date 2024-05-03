@@ -28,7 +28,7 @@ button:hover{
     padding: 0.5rem 1rem;
 }
 
-button.colorBlue{
+.colorBlue{
     background-color: #8EA1E1;
     color: white;
 }

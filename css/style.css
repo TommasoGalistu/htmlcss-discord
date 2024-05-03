@@ -18,13 +18,15 @@ button{
 
 a{
     text-decoration: none;
-    color: white;
 }
 
 ul{
     list-style-type: none;
 }
 
+img.logoDiscord{
+    width: 6rem;
+}
 /* style header */
 
 header{
@@ -266,7 +268,6 @@ footer li{
 }
 
 #lastContainFoot .posizioneContenitori{
-    background-color: #7FFFD4;
     height: 2rem;
     display: flex;
     justify-content: space-between;
@@ -274,10 +275,7 @@ footer li{
 
 }
 
-.colorBlue{
-    background-color: #8EA1E1;
-    color: white;
-}
+
 
 
 
